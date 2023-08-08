@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeff;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 1.5rem;
+}
+
+img {
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.card {
+  color: #eeeeff;
+  min-width: 22vw;
+  min-height: 40vh;
+box-sizing: content-box;
+  text-align: center;
+  background: radial-gradient(circle at left bottom, #1b98e0 50%, #585191 100%);
+  padding: 20px 50px;
+  border-radius: 20px;
+  box-shadow: 0px 15px 10px -12px slateblue;
+}
+.btn-add {
+  font-size: 60px;
+  background: 0;
+  border: 0;
+  color: white;
+  cursor: pointer;
+}
+.add-card {
+  min-width: inherit;
+  min-height: inherit;
+}
+.add-card:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+.flex {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 3px;
+  padding: 5px 10px;
+  
+}
+.form-card{
+display: none;
+}
+input[type='submit'] {
+  margin: 0 auto;
+  width: 50%;
+  cursor: pointer;
+}
+input {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  outline: 0;
+  font-size: 17px;
+  width: 90%;
+}
+#btn-act {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 20px;
+  margin-top: 10px;
+  color: #1473aa;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#btn-act:hover {
+  transform: scale(1.1);
+  background-color: #585191;
+  color: white;
+}
+
+#place-d {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  justify-content: center;
+}
+
+
